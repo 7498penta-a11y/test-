@@ -1,0 +1,62 @@
+body {
+  font-family: 'Georgia', serif;
+  background: linear-gradient(135deg, #f7e9d7, #e0c097);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #3e2f1c;
+}
+
+.container {
+  background: #fffaf2;
+  padding: 2.5rem 3.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 650px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+h1 {
+  color: #6b4226;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  font-family: 'Brush Script MT', cursive;
+}
+
+p {
+  color: #5a4634;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background: #6b4226;
+  color: #fffaf2;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  font-family: 'Verdana', sans-serif;
+}
+
+button:hover {
+  background: #8c5a36;
+  transform: scale(1.05);
+}
+
+.footer {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #7b6651;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

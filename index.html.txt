@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>カフェ風テストサイト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>☕ Welcome to Café Test ☕</h1>
+    <p>ここは静的HTML＋CSSで作ったカフェ風デザインのページです。</p>
+    <button onclick="alert('本日のおすすめはカフェラテです！')">本日のおすすめ</button>
+    <div class="footer">© 2025 Café Test</div>
+  </div>
+</body>
+</html>
